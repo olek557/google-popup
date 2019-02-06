@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .link {
@@ -18,11 +20,15 @@ body {
   flex-direction: row-reverse;
   height: 50px;
   width: 100%;
+  position: absolute;
+  top: 15px;
 }
 
 .nav {
   display: flex;
   align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .nav__item {}
@@ -33,13 +39,13 @@ body {
 
 .user-menu {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   background-color: orange;
-  font-size: 21px;
+  font-size: 18px;
   color: white;
-  line-height: 30px;
+  line-height: 32px;
   text-decoration: none;
   text-align: center;
 }
