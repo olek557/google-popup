@@ -195,10 +195,6 @@ input:focus ~ .icon {
   padding-top: 20px;
 }
 
-/*.popup-more__input {
-  display: none;
-}*/
-
 .popup-more__input:checked ~ .popup__content--more {
   display: flex;
 }
